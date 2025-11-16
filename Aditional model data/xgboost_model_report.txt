@@ -1,0 +1,33 @@
+
+XGBoost Dementia Prediction Model - Final Report
+============================================================
+
+Dataset Information:
+- Total samples: 57663
+- Total features: 48
+- Training samples: 46130
+- Test samples: 11533
+- Class imbalance ratio: 2.19
+
+Best Hyperparameters:
+{'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200, 'subsample': 0.8}
+
+Model Performance on Test Set:
+- Accuracy: 0.9045
+- Precision: 0.8135
+- Recall: 0.9027
+- F1-Score: 0.8558
+- ROC-AUC: 0.9687
+
+Cross-Validation Performance:
+- Mean CV ROC-AUC: 0.9689 (+/- 0.0016)
+
+Top 5 Most Important Features:
+ Feature  Importance
+INDEPEND    0.366156
+   BILLS    0.208240
+  TRAVEL    0.074422
+   TAXES    0.052053
+  EVENTS    0.023397
+
+Model saved as: xgboost_dementia_model.pkl

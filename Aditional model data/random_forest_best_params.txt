@@ -1,0 +1,12 @@
+Best Random Forest Parameters:
+==================================================
+n_estimators: 300
+min_samples_split: 5
+min_samples_leaf: 1
+max_features: sqrt
+max_depth: 20
+criterion: entropy
+bootstrap: True
+
+==================================================
+Best CV ROC-AUC Score: 0.9647
