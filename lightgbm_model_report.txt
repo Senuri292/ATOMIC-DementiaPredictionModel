@@ -1,0 +1,36 @@
+
+LightGBM Dementia Prediction Model - Final Report
+============================================================
+
+Dataset Information:
+- Total samples: 57663
+- Total features: 48
+- Training samples: 46130
+- Test samples: 11533
+
+Best Hyperparameters:
+{'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 10, 'min_child_samples': 20, 'n_estimators': 300, 'num_leaves': 31, 'reg_alpha': 0, 'reg_lambda': 0, 'subsample': 0.8}
+
+Model Performance on Test Set:
+- Accuracy: 0.9044
+- Precision: 0.8108
+- Recall: 0.9072
+- F1-Score: 0.8563
+- ROC-AUC: 0.9689
+
+Cross-Validation Performance:
+- Mean CV ROC-AUC: 0.9690 (+/- 0.0019)
+
+Training Information:
+- Best iteration: 299
+- Total iterations: 300
+
+Top 5 Most Important Features:
+ Feature  Importance
+ NACCADC        1284
+ BIRTHYR         789
+ INBIRYR         522
+NACCDAYS         508
+   TAXES         322
+
+Model saved as: lightgbm_dementia_model.pkl
