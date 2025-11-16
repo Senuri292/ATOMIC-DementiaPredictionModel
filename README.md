@@ -13,6 +13,6 @@ This project involves exploring the NACC Uniform Data Set (UDS), applying featur
 7.	Hyperparameter Tuning<br>
 8.	Model Evaluation<br><br>
 
-<b>final ensemble models can be found here<b> (along with original and training datasets) -  https://drive.google.com/drive/folders/1Yw9CvysqqDrCke7P_uT1a2yBU-NqJPUg?usp=sharing
+<b>final ensemble models and random forest model can be found here<b> (along with original and training datasets) -  https://drive.google.com/drive/folders/1Yw9CvysqqDrCke7P_uT1a2yBU-NqJPUg?usp=sharing
 <br><br>
 Reason: The file sizes exceed GitHub’s upload limits and therefore cannot be committed to the repository.
